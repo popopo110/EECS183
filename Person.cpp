@@ -4,8 +4,8 @@
  * Person.cpp
  * Project UID 848fee0125dbb5eb53ed294f20dbef81
  *
- * <#Names, Halbert#>
- * <#Uniqnames ,halbertr#>
+ * <khaloi ho, Jack Vegter, Isabella Sanchez-Baratto, Halbert>
+ * <khaho, jvegter,isasanch,halbertr>
  *
  * Final Project - Elevators
  */
