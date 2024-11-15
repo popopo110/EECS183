@@ -19,18 +19,18 @@ using namespace std;
 
 Person::Person(string inputString) : Person() {
     //TODO: Implement non-default constructor
-    string str = inputString;
-        stringstream ss(str);
-        ss >> turn;
-        char f;
-        ss >> f;
-        ss >> currentFloor;
-        char t;
-        ss >> t;
-        ss >> targetFloor;
-        char a;
-        ss >> a;
-        ss >> angerLevel;
+    stringstream ss(inputString);
+        char delimiter;
+        
+        if (inputString.length() == 7) {
+            ss >> turn >> delimiter >> currentFloor >> delimiter >> targetFloor >> delimiter >> angerLevel;
+        }
+        else {
+            int tens;
+            ss >> tens;
+            turn = tens;
+            ss >> delimiter >> currentFloor >> delimiter >> targetFloor >> delimiter >> angerLevel;
+        }
     
 }
 
